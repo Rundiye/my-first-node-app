@@ -1,0 +1,12 @@
+'use strict';
+
+const getNames = studentsList => studentsList.map(student => student.name);
+
+
+  /*
+  const names = studentsList.map((student) => {
+    return student.name;
+  });
+  return names;*/
+
+  module.exports = getNames;
